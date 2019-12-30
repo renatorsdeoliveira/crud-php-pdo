@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+.conteudo{
+	background: rgb(6,96,113);
+	background: linear-gradient(180deg, rgba(6,96,113,1) 0%, rgba(40,156,180,1) 50%, rgba(109,223,246,1) 100%) repeat-x;
+	height: auto;
+	min-height: 100vh;
+	padding-top: 60px;
+}
+.formulario{
+    /* background-color: #ffffff6b; */
+	border-radius: 7px;
+	padding: 0px 30px 30px;
+	overflow: hidden;
+	animation-name: fade;
+	animation-duration: 1s;
+	max-width: 350px;
+    margin: 0 auto;
+}
+.formulario h2{
+	color: #ffff;
+    font-size: 24px;
+	text-align: center;
+	margin-bottom: 45px;
+	font-weight: 300;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+.formulario label{
+	color: #ffffff;
+	font-weight: 500;
+	width: 12%;
+	float: left;
+	background-color: #343a40;
+	padding: 7px 0px 7px 0;
+	border-radius:.25rem  0rem 0rem .25rem;
+	position: relative;
+    left: 7px;
+}
+.formulario label i{
+	position: relative;
+	left: 10px;
+}
+.formulario .control{
+	display: block;
+    width: 88%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0rem .25rem .25rem 0rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.tabela{
+	padding-right: 40px;
+}
+.user{
+	max-width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+.excluir, .editar{
+	color: black;
+    font-size: 1.4em;
+}
+.excluir:hover, .editar:hover{
+	color: #ffffff;
+	transition: 0.3s;
+}
+.white{
+	background-color: #ffffff;
+}
+.erro{
+	color: #d22a2a;
+    font-weight: 500;
+}
+#submit{
+	margin: 0 auto;
+	display: block;	
+	margin-top: 40px;
+}
