@@ -15,7 +15,7 @@
             if(!empty($nome) && !empty($email) && !empty($telefone) ){
                 
                 $dados->atualizarDados($id, $nome, $email, $telefone);
-                header('Location: http://localhost/crud-pdo/');
+                header('Location: index.php');
             
             }else{
                 $erro['erro'] .= "Preecha todos os campos";
@@ -49,7 +49,7 @@
     if (isset($_GET['id'])) {
         $delete = addslashes($_GET['id']);
         $dados->delete($delete);
-        header('Location: http://localhost/crud-pdo/');
+        header('Location: index.php');
     }
     
     //------ FUNÇÃO PARA EDITAR VIA GET
